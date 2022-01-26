@@ -28,29 +28,14 @@
 	   .yearfooter {
 	     color: #FFFFFF;
 	   }
-	   
-	   .myMail {
-	     cursor: pointer;
-		 text-decoration: none;
-	   }
-	   
-	   .social {
-	     text-decoration: none;
-	   }
-	   
+	  
 	   li {
 	     color: #FFFFFF;
 	   }
 
-	   * {
-	     font-family: Consolas;
-	   }
-	   
-	   @font-face {
-         font-family: 'Consolas';
-         src: url('fonts/consolas.woff') format('woff'),
-         url('fonts/consolas.ttf') format('truetype');
-       } 
+       img[alt="www.000webhost.com"] {
+         display: none;
+       }	   * {	     font-family: Consolas;	   }	   	   @font-face {         font-family: 'Consolas';         src: url('fonts/consolas.woff') format('woff'),         url('fonts/consolas.ttf') format('truetype');       }
 	</style>
 	<title>spiri-leo's personal website - My tools</title>
 	<meta charset="utf-8">
@@ -61,11 +46,15 @@
 	<!-- Meta tags for social media !-->
     <meta property="og:title" content="spiri-leo's personal website - Tools">
     <meta property="og:description" content="This page contains my tools.">
-	<meta property="og:url" content="https://spiri-leo.netlify.app/tools-en.html">
+	<meta property="og:url" content="https://spiri-leo.000webhostapp.com/tools-en.html">
 	<meta property="og:image" content="profile.png">
 	
 	<!-- Meta tags for search engines !-->
 	<meta name="description" content="This page contains my tools."/>
+	
+	<!-- Hide HTTP-referrers !-->
+	<meta name="referrer" content="no-referrer"/>
+    <meta name="referrer" content="never"/>
 	
 	<!-- Tags to show favicon !-->
 	<link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -84,19 +73,20 @@
   </head>
   <body>
     <div class="header">
-	  <a href="/"><p>Main page</p></a>&nbsp;
-	  <a href="/deviceinfo-en.html"><p> My devices information</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/en.html"><p>Main page</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/deviceinfo-en.html"><p> My devices information</p></a>&nbsp;
 	  <a href="https://github.com/spiri-leo"><p>My GitHub profile</p></a>&nbsp;
-	  <a href="/tools-en.html"><p>My tools</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/tools-en.html"><p>My tools</p></a>&nbsp;
 	</div>
 	<hr>
 	&nbsp;
 	 <h2>My web tools</h2>
 	 <ul>
-	   <li><a href="/tools/whatsmyip.html">Whats my IP (simple tool)</a></li>
-	   <li><a href="/tools/websiteoutagecheck-en.html">Website Outage Check (with Shields.io)</a></li>
+	   <li><a href="/tools/whatsmyip-en.html">Your IP (simple tool)</a></li>
+	   <li><a href="/tools/whatsmyreferrer-en.html">Defining an HTTP Referrer (if you open the tool using my site, there will be no referrer)</a></li>
+	   <li><a href="/tools/calc-en.html">Calculator (simple tool)</a></li>
 	 </ul>
-	<p>If something went wrong, please send it to my email: <a href="mailto:spiridonowlev@yandex.com">spiridonowlev@yandex.com</a></p>
+	 <p>If something went wrong, please send it to my email: <a href="mailto:spiridonowlev@yandex.com">spiridonowlev@yandex.com</a></p>
 	&nbsp;
 	<hr>
 	<div class="yearfooter">
@@ -107,7 +97,7 @@
       </span>
       spiri-leo's personal site
 	  &nbsp;
-	  <a href="/">ru</a> / <a href="/en.html">en</a>
+	  <a href="https://spiri-leo.000webhostapp.com/">ru</a> / <a href="https://spiri-leo.000webhostapp.com/en.html">en</a>
 	 </div>
 	</div>
   </body>

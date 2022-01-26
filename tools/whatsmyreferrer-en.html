@@ -3,15 +3,19 @@
 <html>
 <head>
     <title>Defining an HTTP Referrer</title>
+	<style>
+	   img[alt="www.000webhost.com"] {
+         display: none;
+       }
+	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <script>
-  document.write('<h2>HTTP-referrer:' + document.referrer + '</h2>')
+  document.write('<h2>HTTP-referrer: ' + document.referrer + '</h2>')
 </script>
 </body>
 <!--    Этот текст должен не являться членом 'body' так как текст будет 
         первым создавшим элементом из а document.write                      !-->
 <p>If the referrer is empty, then there is no HTTP-referrer!</p>
-</hr>
 </html>

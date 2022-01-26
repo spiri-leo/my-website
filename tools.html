@@ -29,28 +29,13 @@
 	     color: #FFFFFF;
 	   }
 	   
-	   .myMail {
-	     cursor: pointer;
-		 text-decoration: none;
-	   }
-	   
-	   .social {
-	     text-decoration: none;
-	   }
-	   
 	   li {
 	     color: #FFFFFF;
 	   }
 
-	   * {
-	     font-family: Consolas;
-	   }
-	   
-	   @font-face {
-         font-family: 'Consolas';
-         src: url('fonts/consolas.woff') format('woff'),
-         url('fonts/consolas.ttf') format('truetype');
-       } 
+       img[alt="www.000webhost.com"] {
+         display: none;
+       }	   * {	     font-family: Consolas;	   }	   	   @font-face {         font-family: 'Consolas';         src: url('fonts/consolas.woff') format('woff'),         url('fonts/consolas.ttf') format('truetype');       }
 	</style>
 	<title>Личный сайт spiri-leo - Мои инструменты</title>
 	<meta charset="utf-8">
@@ -61,10 +46,15 @@
 	<!-- Meta tags for social media !-->
     <meta property="og:title" content="Личный сайт spiri-leo - Мои инструменты">
     <meta property="og:description" content="Эта страница находится мои инструменты.">
+	<meta property="og:url" content="https://spiri-leo.000webhostapp.com/tools.html">
 	<meta property="og:image" content="profile.png">
 	
 	<!-- Meta tags for search engines !-->
 	<meta name="description" content="Эта страница находится мои инструменты."/>
+	
+	<!-- Скрытие реферера !-->
+	<meta name="referrer" content="no-referrer"/>
+    <meta name="referrer" content="never"/>
 	
 	<!-- Tags to show favicon !-->
 	<link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -83,17 +73,18 @@
   </head>
   <body>
     <div class="header">
-	  <a href="/"><p>Главная страница</p></a>&nbsp;
-	  <a href="/deviceinfo.html"><p>Информация об моих устройств</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/"><p>Главная страница</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/deviceinfo.html"><p>Информация об моих устройств</p></a>&nbsp;
 	  <a href="https://github.com/spiri-leo"><p>Мой профиль GitHub</p></a>&nbsp;
-	  <a href="/tools.html"><p>Мои инструменты</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/tools.html"><p>Мои инструменты</p></a>&nbsp;
 	</div>
 	<hr>
 	&nbsp;
 	 <h2>Мои веб-инструменты</h2>
 	 <ul>
-	   <li><a href="/tools/whatsmyip.html">Какой мой IP (простой инструмент)</a></li>
-	   <li><a href="/tools/websiteoutagecheck.html">Проверка работа сайта (с Shields.io)</a></li>
+	   <li><a href="/tools/whatsmyip.html">Твой IP (простой инструмент)</a></li>
+	   <li><a href="/tools/whatsmyreferrer.html">Определение HTTP-реферера (если вы открывайте инструмент с помощью моего сайта, реферера не будет)</a></li>
+	   <li><a href="/tools/calc.html">Калькулятор (простой инструмент)</a></li>
 	 </ul>
 	 <p>Если что-то пошло не так, отправьте по моем электронном почте: <a href="mailto:spiridonowlev@yandex.com">spiridonowlev@yandex.com</a></p>
 	&nbsp;
@@ -106,7 +97,7 @@
       </span>
       Личный сайт spiri-leo
 	  &nbsp;
-	  <a href="/">ru</a> / <a href="/en">en</a>
+	  <a href="https://spiri-leo.000webhostapp.com/">ru</a> / <a href="https://spiri-leo.000webhostapp.com/en.html">en</a>
 	 </div>
 	</div>
   </body>

@@ -3,12 +3,19 @@
 <html>
 <head>
     <title>Определение HTTP-реферера</title>
+	<style>
+	   img[alt="www.000webhost.com"] {
+         display: none;
+       }
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <script>
-  document.write('<h2>Твой реферер:' + document.referrer + '</h2>')
+  document.write('<h2>HTTP-реферер: ' + document.referrer + '</h2>')
 </script>
 </body>
-<!-- Этот текст должен не являться членом 'body' так как текст исчезнет !-->
-<p>Если реферер пустой, значит, что нет реферера!</p>
+<!--    Этот текст должен не являться членом 'body' так как текст будет 
+        первым создавшим элементом из а document.write                      !-->
+<p>Если реферер пустой, значит, что нет HTTP-реферера!</p>
 </html>

@@ -29,19 +29,18 @@
 	     color: #FFFFFF;
 	   }
 	   
-       img[alt="www.000webhost.com"] {
-         display: none;
-       }
-
-	   * {
-	     font-family: Consolas;
+	   .myMail {
+	     cursor: pointer;
+		 text-decoration: none;
 	   }
 	   
-	   @font-face {
-         font-family: 'Consolas';
-         src: url('fonts/consolas.woff') format('woff'),
-         url('fonts/consolas.ttf') format('truetype');
-       } 
+	   .social {
+	     text-decoration: none;
+	   }
+	   
+       img[alt="www.000webhost.com"] {
+         display: none;
+       }	   * {	     font-family: Consolas;	   }	   	   @font-face {         font-family: 'Consolas';         src: url('fonts/consolas.woff') format('woff'),         url('fonts/consolas.ttf') format('truetype');       }
 	</style>
 	<title>spiri-leo's personal website</title>
 	<meta charset="utf-8">
@@ -52,10 +51,15 @@
 	<!-- Meta tags for social media !-->
     <meta property="og:title" content="spiri-leo's personal website">
     <meta property="og:description" content="This is my personal website.">
+	<meta property="og:url" content="https://spiri-leo.000webhostapp.com/">
 	<meta property="og:image" content="profile.png">
 	
 	<!-- Meta tags for search engines !-->
 	<meta name="description" content="This is my personal website."/>
+	
+    <!-- Hide HTTP-referrers !-->
+	<meta name="referrer" content="no-referrer"/>
+    <meta name="referrer" content="never"/>
 	
 	<!-- Tags to show favicon !-->
 	<link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
@@ -74,10 +78,10 @@
   </head>
   <body>
     <div class="header">
-	  <a href="/"><p>Main page</p></a>&nbsp;
-	  <a href="/deviceinfo-en.html"><p> My devices information</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/en.html"><p>Main page</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/deviceinfo-en.html"><p> My devices information</p></a>&nbsp;
 	  <a href="https://github.com/spiri-leo"><p>My GitHub profile</p></a>&nbsp;
-	  <a href="/tools-en.html"><p>My tools</p></a>&nbsp;
+	  <a href="https://spiri-leo.000webhostapp.com/tools-en.html"><p>My tools</p></a>&nbsp;
 	</div>
 	<hr>
 	&nbsp;
@@ -109,7 +113,7 @@
       </span>
       spiri-leo's personal site
 	  &nbsp;
-	  <a href="/">ru</a> / <a href="/en.html">en</a>
+	  <a href="https://spiri-leo.000webhostapp.com/">ru</a> / <a href="https://spiri-leo.000webhostapp.com/en.html">en</a>
 	 </div>
 	</div>
   </body>
