@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>spiri-leo's personal website - What's my IP (simple tool)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <script type="application/javascript">
+      function getIP(json) {
+        document.write("<h3>Your IP address is: " + json.ip + "</h3>");
+      }
+	  
+	  document.write("<h3>Your user-agent is: " + navigator.userAgent + "</h3>");
+    </script>
+    
+    <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+  </body>
+</html>

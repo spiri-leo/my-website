@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Погода</title>
+  <style>
+     * {
+	   font-family: Consolas;
+	 }
+  </style>
+</head>
+<body>
+  <div class="input">
+    <input type="text" class="InputValue">
+	<input type="submit" value="Смотреть погоду">
+  </div>
+  
+  <div class="display">
+    <h1 class="name"></h1>
+	<p class="desc"></p>
+	<p class="temp"></p>
+  </div>
+<script>
+  document.querySelector('.button').addEventListener('click',function(){
+   fetch('https://api.openweathermap.org/data/2.5/weather?q=' + inputValue.value + '&appid=74db18cf2f81408456392de2c08ce67a')
+    .then(response => response.json())
+    .then(data => console.log(data))
+   
+    .catch(err => alert("Такого нет города на земле!"))
+  })
+</script>
+</body>
+</html>
