@@ -25,6 +25,6 @@ jobs:
   uses: CodelyTV/no-pull-requests@v1
   with:
     # GitHub token
-    GITHUB_TOKEN: 
+    GITHUB_TOKEN: ${{ secrets.GH_BOT_CLOSER }}
     # Message to show when the pull request is closed
     message: Unfortunately, in this repository where my site is located, there is no need to do pull requests yet.
