@@ -21,8 +21,10 @@ jobs:
     runs-on: ubuntu-latest
   
   # You may pin to the exact commit or the version.
-  # uses: crondaemon/close-pr@881bf1f79f8f753f256bc0d4ece4d7b183b250fb
-  uses: crondaemon/close-pr@v1
+  # uses: CodelyTV/no-pull-requests@53f1180ae5c5a7ccacdc55e03d5152ecfaeb1e00
+  uses: CodelyTV/no-pull-requests@v1
   with:
-    # Post a issue comment just before closing a pull request.
-    comment: Unfortunately, in this repository where my site is located, there is no need to do pull requests yet.
+    # GitHub token
+    GITHUB_TOKEN: 
+    # Message to show when the pull request is closed
+    message: Unfortunately, in this repository where my site is located, there is no need to do pull requests yet.
