@@ -1,1 +1,1 @@
-## my-website [![Netlify Status](https://api.netlify.com/api/v1/badges/b9e65b72-55ce-42d1-b996-c7d7d601b7ee/deploy-status)](https://app.netlify.com/sites/spiri-leo/deploys)
+## My website [![Netlify Status](https://api.netlify.com/api/v1/badges/b9e65b72-55ce-42d1-b996-c7d7d601b7ee/deploy-status)](https://app.netlify.com/sites/spiri-leo/deploys) ![Website](https://img.shields.io/website?down_message=something%20went%20wrong&up_message=working&url=https%3A%2F%2Fspiri-leo.netlify.app%2F)
